@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-public class MyUtilsStringsTest 
+public class MyUtilsStringsTest
 {
 
 	@Test
@@ -16,10 +16,10 @@ public class MyUtilsStringsTest
 	{
 		String cadenaInicial = "Esto es la cadena inicial0";
 		String cadenaFinal = "Esto es la cadena inicial";
-		
+
 		cadenaInicial = StringUtils.chop(cadenaInicial);
-		
-		assertEquals(cadenaInicial,cadenaFinal);
+
+		assertEquals(cadenaInicial, cadenaFinal);
 	}
-	
+
 }
